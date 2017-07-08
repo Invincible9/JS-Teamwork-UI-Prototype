@@ -1,8 +1,8 @@
-﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.1.0.48"?>
+<?Infragistics.Models format="xaml" version="29" appVersion="9.1.0.48"?>
 <Page xmlns="http://prototypes.infragistics.com/"
                                                                                 Id="b0bbfbd1-097b-4708-b8bf-788ba0954a37">
     <Page.Content>
-        <Content Width="1024" Height="768" Id="7f07c0e9-5576-4d50-8391-12e8a4eee7a0">
+        <Content Width="998" Height="596" Id="7f07c0e9-5576-4d50-8391-12e8a4eee7a0">
             <Content.Layers>
                 <Layer Id="a1196edf-c61a-4cad-9d19-27785bde8919" Panel.Layout="Stretch" />
                 <AnnotationsLayer Id="735cd83e-ace3-4909-8150-b0ab1afd2745" Panel.Layout="Stretch" />
@@ -25,50 +25,43 @@
                     <KeyFrame.Operations>
                         <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
                             <Add.Item>
-                                <Label RichText="User" FontSize="18" FontFamily="Arial Black" Id="0020f29e-6a7e-4662-89f5-1b4e23635295" Panel.Bounds="69,49,62{5,2147483647},30{5,2147483647}" />
+                                <Label RichText="User" FontSize="18" FontFamily="Arial Black" Id="0020f29e-6a7e-4662-89f5-1b4e23635295" Panel.Bounds="66,32,62{5,2147483647},30{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
                             <Add.Item>
-                                <Button Text="Logout" FontFamily="Arial Black" Id="88ce8f1e-a4f1-40f2-96eb-1b52d7ac5e8e" Panel.Bounds="820,49,80{5,2147483647},35{5,2147483647}" />
+                                <Button Text="Logout" FontFamily="Arial Black" Id="88ce8f1e-a4f1-40f2-96eb-1b52d7ac5e8e" Panel.Bounds="820,29,80{5,2147483647},35{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
                             <Add.Item>
-                                <Button Text="FAQ" Background="#FFFFFFFF" FontFamily="Arial Black" Opacity="1" Id="0e3b79fd-c9c9-416d-ae53-772644c08e75" Panel.Bounds="727,49,80{5,2147483647},35{5,2147483647}" />
+                                <Button Text="FAQ" Background="#FFFFFFFF" FontFamily="Arial Black" Opacity="1" Id="0e3b79fd-c9c9-416d-ae53-772644c08e75" Panel.Bounds="727,29,80{5,2147483647},35{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
                             <Add.Item>
-                                <Button Text="Forum" Background="#FFC0D5EF" FontFamily="Arial Black" Id="501567a3-4f5c-4b98-b278-dee4b661eeff" Panel.Bounds="638,49,80{5,2147483647},35{5,2147483647}" />
+                                <Button Text="Forum" Background="#FFC0D5EF" FontFamily="Arial Black" Id="501567a3-4f5c-4b98-b278-dee4b661eeff" Panel.Bounds="640,29,80{5,2147483647},35{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
                             <Add.Item>
-                                <Button Text="Chat Rooms" FontFamily="Arial Black" Id="7b9b3a8b-05db-4d8a-8a26-263eb5cfa403" Panel.Bounds="528,49,101{5,2147483647},35{5,2147483647}" />
+                                <Button Text="Chat Rooms" FontFamily="Arial Black" Id="7b9b3a8b-05db-4d8a-8a26-263eb5cfa403" Panel.Bounds="528,29,101{5,2147483647},35{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
                             <Add.Item>
-                                <Button Text="Home" FontFamily="Arial Black" Id="3f45190c-abcf-47c1-8fd1-f5d9e78b7c5a" Panel.Bounds="434,49,80{5,2147483647},35{5,2147483647}" />
+                                <Button Text="Home" FontFamily="Arial Black" Id="3f45190c-abcf-47c1-8fd1-f5d9e78b7c5a" Panel.Bounds="433,29,80{5,2147483647},35{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
                             <Add.Item>
-                                <Icon Id="a00554d2-2e73-4bea-ac89-1fa82b8baa25" Panel.Bounds="134,43,29{5,2147483647},29{5,2147483647}" />
+                                <Button Text="Online Chat" FontFamily="Arial Black" Id="1839d762-fc62-431c-9f97-0363de89c80b" Panel.Bounds="174,29,101{5,2147483647},35{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
                             <Add.Item>
-                                <Button Text="Online Chat" FontFamily="Arial Black" Id="1839d762-fc62-431c-9f97-0363de89c80b" Panel.Bounds="174,46,101{5,2147483647},35{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
-                            <Add.Item>
-                                <ListBox Foreground="#FF1A4E21" FontSize="18" FontFamily="Source Sans Pro" FontStyle="Bold" Id="bb0abd59-fd5e-4f83-b4d8-547377084cdb" Panel.Bounds="66,121,209{5,2147483647},232{5,2147483647}">
+                                <ListBox Foreground="#FF1A4E21" FontSize="18" FontFamily="Source Sans Pro" FontStyle="Bold" Opacity="0.6" Id="bb0abd59-fd5e-4f83-b4d8-547377084cdb" Panel.Bounds="66,171,209{5,2147483647},232{5,2147483647}">
                                     <ListBox.Items>
-                                        <Item Text="Topics:" Id="b6108050-27f2-4c6d-9fc5-57d664481b6c" />
-                                        <Item Text="Item 2" Id="aa97864c-f0e4-4080-ab52-22df57f7655b" />
                                         <Item Text="Javascript" Id="cd3bed8b-3b73-4d64-93fc-56f3714707ce" />
                                         <Item Text="C#" Id="daafee37-1290-4e88-82bf-14a703d74959" />
                                         <Item Text="Java" Id="6fa06320-1495-47b3-9144-4585d7b7ed1d" />
@@ -79,114 +72,188 @@
                                         <Item Text="Unity" Id="073554e0-100d-48ac-84bf-ad4509657614" />
                                         <Item Text="PHP" Id="8015fe7a-785f-486e-b923-b0d88f5d9fe4" />
                                         <Item Text="HTML5" Id="46cf44cd-0a67-47b8-9814-d05b95909c10" />
-                                        <Item Text="New Item" Id="c722c7d8-4703-4b4b-8d1c-dbd0f1d02f3d" />
                                     </ListBox.Items>
                                 </ListBox>
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
                             <Add.Item>
-                                <TextArea FontFamily="Source Sans Pro" Id="7b3b5867-3a3e-4984-9efa-54704b2ecfd4" Panel.Bounds="317,171,631{5,2147483647},401{5,2147483647}" />
+                                <TextArea FontFamily="Source Sans Pro" Opacity="0" Id="7b3b5867-3a3e-4984-9efa-54704b2ecfd4" Panel.Bounds="289,171,625{5,2147483647},279{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
                             <Add.Item>
-                                <Title FontFamily="Source Sans Pro" Id="6e94bd34-c8a8-4525-9673-aa78e5226cd6" Panel.Bounds="328,178,5*{5,2147483647},5*{5,2147483647}" />
+                                <Title FontFamily="Source Sans Pro" Id="6e94bd34-c8a8-4525-9673-aa78e5226cd6" Panel.Bounds="301,175,5{5,2147483647},5{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
                             <Add.Item>
-                                <TextBox Text="How do i enter the internet?" FontSize="24" FontFamily="Source Sans Pro" Id="1fdf864f-9a94-440c-bee1-3b908dbf28a1" Panel.Bounds="334,190,311{5,2147483647},5*{5,2147483647}" />
+                                <TextBox Text="How do i enter the internet?" FontSize="24" FontFamily="Source Sans Pro" Id="1fdf864f-9a94-440c-bee1-3b908dbf28a1" Panel.Bounds="307,184,308{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
                             <Add.Item>
-                                <TextBox Text="How do i google stuff?" FontSize="24" FontFamily="Source Sans Pro" Id="c18abd74-dc3d-4d42-9f1b-766c36bfe364" Panel.Bounds="334,249,311{5,2147483647},5*{5,2147483647}" />
+                                <TextBox Text="How do i google stuff?" FontSize="24" FontFamily="Source Sans Pro" Id="c18abd74-dc3d-4d42-9f1b-766c36bfe364" Panel.Bounds="307,226,308{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
                             <Add.Item>
-                                <TextBox Text="What is Marvel?" FontSize="24" FontFamily="Source Sans Pro" Id="4c58b386-067b-4475-8f93-667ca05d67a7" Panel.Bounds="334,313,311{5,2147483647},5*{5,2147483647}" />
+                                <TextBox Text="What is Marvel?" FontSize="24" FontFamily="Source Sans Pro" Id="4c58b386-067b-4475-8f93-667ca05d67a7" Panel.Bounds="307,269,308{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
                             <Add.Item>
-                                <TextBox Text="How much do i weight?" FontSize="24" FontFamily="Source Sans Pro" Id="a2f56899-5f41-4b7e-89de-044ac7e3c6b2" Panel.Bounds="334,377,311{5,2147483647},5*{5,2147483647}" />
+                                <TextBox Text="How much do i weight?" FontSize="24" FontFamily="Source Sans Pro" Id="a2f56899-5f41-4b7e-89de-044ac7e3c6b2" Panel.Bounds="307,314,308{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
                             <Add.Item>
-                                <TextBox Text="What?" FontSize="24" FontFamily="Source Sans Pro" Id="db6e0e92-a29e-42d1-8cd7-dfc09187cb2c" Panel.Bounds="334,441,311{5,2147483647},5*{5,2147483647}" />
+                                <TextBox Text="What?" FontSize="24" FontFamily="Source Sans Pro" Id="db6e0e92-a29e-42d1-8cd7-dfc09187cb2c" Panel.Bounds="307,359,308{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
                             <Add.Item>
-                                <TextBox Text="Where?" FontSize="24" FontFamily="Source Sans Pro" Id="e4a0ed25-3bb5-48c9-8d2d-cbfe0f377c23" Panel.Bounds="334,512,311{5,2147483647},5*{5,2147483647}" />
+                                <TextBox Text="Where?" FontSize="24" FontFamily="Source Sans Pro" Id="e4a0ed25-3bb5-48c9-8d2d-cbfe0f377c23" Panel.Bounds="307,408,308{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
                             <Add.Item>
-                                <Label RichText="13.04.2014&#xD;&#xA;" Foreground="#FF315C82" FontSize="24" FontFamily="Roboto Condensed" Id="6fc77be9-3521-4aab-9452-63924c83c5f6" Panel.Bounds="654,192,117{5,2147483647},35{5,2147483647}" />
+                                <Label RichText="13.04.2014&#xD;&#xA;" Foreground="#FF315C82" FontSize="24" FontFamily="Roboto Condensed" Id="6fc77be9-3521-4aab-9452-63924c83c5f6" Panel.Bounds="624,185,116{5,2147483647},24{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
                             <Add.Item>
-                                <Label RichText="13.04.2014&#xD;&#xA;" Foreground="#FF315C82" FontSize="24" FontFamily="Roboto Condensed" Id="43d494f3-a975-489c-b1cd-ac5a2522313f" Panel.Bounds="654,251,132{5,2147483647},35{5,2147483647}" />
+                                <Label RichText="13.04.2014&#xD;&#xA;" Foreground="#FF315C82" FontSize="24" FontFamily="Roboto Condensed" Id="43d494f3-a975-489c-b1cd-ac5a2522313f" Panel.Bounds="624,227,131{5,2147483647},24{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
                             <Add.Item>
-                                <Label RichText="13.04.2014&#xD;&#xA;" Foreground="#FF315C82" FontSize="24" FontFamily="Roboto Condensed" Id="c0a53b3e-d68b-4b27-934b-9182e9707368" Panel.Bounds="654,315,140{5,2147483647},35{5,2147483647}" />
+                                <Label RichText="13.04.2014&#xD;&#xA;" Foreground="#FF315C82" FontSize="24" FontFamily="Roboto Condensed" Id="c0a53b3e-d68b-4b27-934b-9182e9707368" Panel.Bounds="624,272,139{5,2147483647},24{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
                             <Add.Item>
-                                <Label RichText="13.04.2014&#xD;&#xA;" Foreground="#FF315C82" FontSize="24" FontFamily="Roboto Condensed" Id="e7265d60-cc0a-4193-9593-bfde810c4fc3" Panel.Bounds="654,379,123{5,2147483647},35{5,2147483647}" />
+                                <Label RichText="13.04.2014&#xD;&#xA;" Foreground="#FF315C82" FontSize="24" FontFamily="Roboto Condensed" Id="e7265d60-cc0a-4193-9593-bfde810c4fc3" Panel.Bounds="624,317,122{5,2147483647},24{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
                             <Add.Item>
-                                <Label RichText="13.04.2014&#xD;&#xA;" Foreground="#FF315C82" FontSize="24" FontFamily="Roboto Condensed" Id="98b83d12-9b07-485a-959a-27c833f0b59c" Panel.Bounds="654,441,123{5,2147483647},35{5,2147483647}" />
+                                <Label RichText="13.04.2014&#xD;&#xA;" Foreground="#FF315C82" FontSize="24" FontFamily="Roboto Condensed" Id="98b83d12-9b07-485a-959a-27c833f0b59c" Panel.Bounds="624,359,122{5,2147483647},24{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
                             <Add.Item>
-                                <Label RichText="13.04.2014&#xD;&#xA;" Foreground="#FF315C82" FontSize="24" FontFamily="Roboto Condensed" Id="136a125a-3d25-44dd-933b-29930a638bd8" Panel.Bounds="654,514,113{5,2147483647},35{5,2147483647}" />
+                                <Label RichText="13.04.2014&#xD;&#xA;" Foreground="#FF315C82" FontSize="24" FontFamily="Roboto Condensed" Id="136a125a-3d25-44dd-933b-29930a638bd8" Panel.Bounds="624,410,112{5,2147483647},24{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
                             <Add.Item>
-                                <Label RichText="Nqkoi" Foreground="#FF417BAD" FontSize="24" FontFamily="Roboto Condensed" Id="9650c6de-4a48-423e-b627-56454b961c7d" Panel.Bounds="786,192,94{5,2147483647},37{5,2147483647}" />
+                                <Label RichText="Nqkoi" Foreground="#FF417BAD" FontSize="24" FontFamily="Roboto Condensed" Id="9650c6de-4a48-423e-b627-56454b961c7d" Panel.Bounds="755,185,93{5,2147483647},25{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
                             <Add.Item>
-                                <Label RichText="User23" Foreground="#FF417BAD" FontSize="24" FontFamily="Roboto Condensed" Id="fafde2cc-faa5-455b-8207-3420f8b1c883" Panel.Bounds="786,251,94{5,2147483647},37{5,2147483647}" />
+                                <Label RichText="User23" Foreground="#FF417BAD" FontSize="24" FontFamily="Roboto Condensed" Id="fafde2cc-faa5-455b-8207-3420f8b1c883" Panel.Bounds="755,227,93{5,2147483647},25{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
                             <Add.Item>
-                                <Label RichText="Nqkoi138" Foreground="#FF417BAD" FontSize="24" FontFamily="Roboto Condensed" Id="25f25d81-80f7-4a5d-9996-b47ba241ac75" Panel.Bounds="786,315,94{5,2147483647},37{5,2147483647}" />
+                                <Label RichText="Nqkoi138" Foreground="#FF417BAD" FontSize="24" FontFamily="Roboto Condensed" Id="25f25d81-80f7-4a5d-9996-b47ba241ac75" Panel.Bounds="755,272,93{5,2147483647},25{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
                             <Add.Item>
-                                <Label RichText="User32&#xD;&#xA;" Foreground="#FF417BAD" FontSize="24" FontFamily="Roboto Condensed" Id="b5a5fcbb-2438-4083-b2ec-2cd198a2be81" Panel.Bounds="786,378,94{5,2147483647},37{5,2147483647}" />
+                                <Label RichText="User32&#xD;&#xA;" Foreground="#FF417BAD" FontSize="24" FontFamily="Roboto Condensed" Id="b5a5fcbb-2438-4083-b2ec-2cd198a2be81" Panel.Bounds="755,315,93{5,2147483647},25{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
                             <Add.Item>
-                                <Label RichText="Chovek" Foreground="#FF417BAD" FontSize="24" FontFamily="Roboto Condensed" Id="c0f681ea-8d40-4e36-aec9-c3aa9ef56b9b" Panel.Bounds="786,441,94{5,2147483647},37{5,2147483647}" />
+                                <Label RichText="Chovek" Foreground="#FF417BAD" FontSize="24" FontFamily="Roboto Condensed" Id="c0f681ea-8d40-4e36-aec9-c3aa9ef56b9b" Panel.Bounds="755,359,93{5,2147483647},25{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
                             <Add.Item>
-                                <Label RichText="Chovek3" Foreground="#FF417BAD" FontSize="24" FontFamily="Roboto Condensed" Id="a5815fae-a609-41dc-aea3-ab01833c1d57" Panel.Bounds="786,512,94{5,2147483647},37{5,2147483647}" />
+                                <Label RichText="Chovek3" Foreground="#FF417BAD" FontSize="24" FontFamily="Roboto Condensed" Id="a5815fae-a609-41dc-aea3-ab01833c1d57" Panel.Bounds="755,408,93{5,2147483647},25{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
                             <Add.Item>
                                 <Title RichText="&lt;Run Foreground=&quot;#FF48C157&quot; &gt;Javascript&lt;/Run&gt;" FontFamily="Roboto Condensed" Id="1ebc971a-4d33-45a3-bb44-fd2b3f4f5f78" Panel.Bounds="508,108,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
+                            <Add.Item>
+                                <Title RichText="&lt;Run FontFamily=&quot;Source Sans Pro&quot; Foreground=&quot;#FF1A4E21&quot; FontWeight=&quot;Bold&quot; &gt;Topics:&lt;/Run&gt;" FontFamily="Roboto Condensed" Id="c4a1b902-4722-4f04-8005-0042a45849fd" Panel.Bounds="66,113,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
+                            <Add.Item>
+                                <Label RichText="Get Our newsletter " Foreground="#FF4281D0" FontSize="14" FontStyle="Bold" Opacity="0.6" Id="db3cd004-3b3e-46a6-9039-e7824169bdde" Panel.Bounds="652,492,141{5,2147483647},24{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
+                            <Add.Item>
+                                <TextArea Text="Enter your email" Foreground="#FF4281D0" FontStyle="Bold" Opacity="0.4" Id="33e1a14f-a283-47ba-bca8-31b08cc3ebd9" Panel.Bounds="652,524,150{5,2147483647},36{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
+                            <Add.Item>
+                                <TextArea Text="Subscribe" Foreground="#FF4281D0" FontStyle="Bold" Opacity="0.4" Id="49724161-c59b-40ac-86d5-62248392e567" Panel.Bounds="820,524,89{5,2147483647},36{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
+                            <Add.Item>
+                                <Label RichText="Search" Foreground="#FFFFFF00" FontSize="16" FontFamily="Open Sans" FontStyle="Bold" Opacity="0.4" Id="4e201420-d239-40cd-a05b-15b29bd6d2db" Panel.Bounds="74,461,77{5,2147483647},30{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
+                            <Add.Item>
+                                <Label RichText="Contact" Foreground="#FFFFFF00" FontSize="16" FontFamily="Open Sans" FontStyle="Bold" Opacity="0.4" Id="2fef93d8-a205-4fd9-b803-500ea394f12d" Panel.Bounds="74,494,77{5,2147483647},30{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
+                            <Add.Item>
+                                <Label RichText="Feature" Foreground="#FFFFFF00" FontSize="16" FontFamily="Open Sans" FontStyle="Bold" Opacity="0.4" Id="34753693-2167-495d-9132-fccc010ee30b" Panel.Bounds="217,461,65{5,2147483647},30{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
+                            <Add.Item>
+                                <Label RichText="&lt;Run FontSize=&quot;16&quot; FontWeight=&quot;Bold&quot; &gt;Search User&lt;/Run&gt;" Foreground="#FFFFFF00" FontFamily="Open Sans" Opacity="0.4" Id="bdb0588a-4816-45d4-99a7-b27606f606cd" Panel.Bounds="74,530,107{5,2147483647},30{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
+                            <Add.Item>
+                                <Label RichText="Privacy" Foreground="#FFFFFF00" FontSize="16" FontFamily="Open Sans" FontStyle="Bold" Opacity="0.4" Id="d4da6b90-21b8-473d-b8a3-f4411cc03613" Panel.Bounds="217,494,77{5,2147483647},30{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
+                            <Add.Item>
+                                <Label RichText="&lt;Run FontSize=&quot;16&quot; FontWeight=&quot;Bold&quot; &gt;Community&lt;/Run&gt;" Foreground="#FFFFFF00" FontFamily="Open Sans" Opacity="0.4" Id="dfe54bce-93ad-47e0-bcbf-5492b5f68e31" Panel.Bounds="217,530,104{5,2147483647},30{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
+                            <Add.Item>
+                                <Label RichText="FAQ" Foreground="#FFFFFF00" FontSize="16" FontFamily="Open Sans" FontStyle="Bold" Opacity="0.4" Id="c3750fb1-3c37-436f-8c35-907a1a70e1c5" Panel.Bounds="324,461,77{5,2147483647},30{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
+                            <Add.Item>
+                                <Icon Color="#FFFFFF00" CatalogId="Happy Smiley" Id="bd2ddf1d-6190-463d-9fb6-7b6554eb6b10" Panel.Bounds="133,32,29{5,2147483647},29{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="0020f29e-6a7e-4662-89f5-1b4e23635295" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
+                            <Add.Item>
+                                <Rectangle Background="#FFC6C6C6" Id="62c7518c-5494-4e75-8d41-2b6807f622e2" Panel.Bounds="0,457,998{5,2147483647},139{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="62c7518c-5494-4e75-8d41-2b6807f622e2" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
+                            <Add.Item>
+                                <Rectangle Background="#FFE9F0DA" Id="85187f46-8590-4756-b7bc-2e763a2fd32c" Panel.Bounds="0,92,998{5,2147483647},367{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="85187f46-8590-4756-b7bc-2e763a2fd32c" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
+                            <Add.Item>
+                                <Rectangle Background="#FFC6C6C6" Id="4cfb1fbc-d318-40f9-b306-7c318f8d7f70" Panel.Bounds="0,0,998{5,2147483647},94{5,2147483647}" />
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>
