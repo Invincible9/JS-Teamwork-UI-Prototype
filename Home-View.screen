@@ -51,7 +51,7 @@
                         </Add>
                         <Add Property="Panel.Children" Target="ad929262-3170-4e61-9a07-dd2b9da2e22a">
                             <Add.Item>
-                                <Button Text="Forum" FontFamily="Arial Black" Id="ae656590-ff98-471e-b1aa-35649877ee37" Panel.Bounds="657,46,80{5,2147483647},35{5,2147483647}" />
+                                <Button Text="Forum" FontFamily="Arial Black" Id="ae656590-ff98-471e-b1aa-35649877ee37" Name="Register" Panel.Bounds="657,46,80{5,2147483647},35{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="ad929262-3170-4e61-9a07-dd2b9da2e22a">
@@ -166,6 +166,46 @@
         <Scene Title="Disconnected State" ParentScene="d3de180a-58ef-41b3-880b-a4d61fe91f8b" Created="07/07/2017 22:16:22" Id="51d2672f-afe7-4744-b011-35391fdf005a">
             <Scene.KeyFrames>
                 <KeyFrame Id="7538b7dd-7c25-40aa-87f5-f5c73edb3ea6" />
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Disconnected State" StateGroup="d3de180a-58ef-41b3-880b-a4d61fe91f8b" ParentScene="d3de180a-58ef-41b3-880b-a4d61fe91f8b" Created="07/08/2017 13:31:29" Id="afe74a1f-454b-497b-855a-9c7baaab7746">
+            <Scene.KeyFrames>
+                <KeyFrame Id="a8f4d249-96db-4291-bcf3-f3a20c7aab2f" />
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Disconnected State" StateGroup="afe74a1f-454b-497b-855a-9c7baaab7746" ParentScene="afe74a1f-454b-497b-855a-9c7baaab7746" Created="07/08/2017 13:50:38" Id="d4b0c32d-c638-4545-801c-23f6dc16fb37">
+            <Scene.KeyFrames>
+                <KeyFrame Id="6dee116f-0db8-4e2a-a729-9398191ad916" />
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Disconnected State" StateGroup="d4b0c32d-c638-4545-801c-23f6dc16fb37" ParentScene="d4b0c32d-c638-4545-801c-23f6dc16fb37" Created="07/08/2017 13:56:48" Id="a56a7db2-010c-41ff-b08c-9f55356b9cb8">
+            <Scene.KeyFrames>
+                <KeyFrame Id="f6dd6c4d-2eda-44f6-baf7-9aa774adc71a">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="ad929262-3170-4e61-9a07-dd2b9da2e22a">
+                            <Add.Item>
+                                <Button Text="Register" FontFamily="Arial Black" Id="1dcefc05-335f-41b0-b35a-b2c68a6f88e6" Panel.Bounds="830,46,80{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Move To="741,46" Target="8f3983d9-cbcc-4962-8e05-1685505c7007" />
+                        <Move To="458,46" Target="ca0687f3-4e07-44fb-818b-603b52e02acd" />
+                        <Remove Target="b7d760fb-b798-4606-90eb-4a2f4090819a" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Disconnected State" StateGroup="a56a7db2-010c-41ff-b08c-9f55356b9cb8" ParentScene="a56a7db2-010c-41ff-b08c-9f55356b9cb8" Created="07/08/2017 14:32:08" Id="2f83f09f-034a-4b52-93b3-123e324dc302">
+            <Scene.KeyFrames>
+                <KeyFrame Id="354cc350-d79f-4479-bdb0-69019be3c51f">
+                    <KeyFrame.Operations>
+                        <Move To="746,46" Target="8f3983d9-cbcc-4962-8e05-1685505c7007" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Disconnected State" StateGroup="2f83f09f-034a-4b52-93b3-123e324dc302" ParentScene="2f83f09f-034a-4b52-93b3-123e324dc302" Created="07/08/2017 14:35:40" Id="31139635-479b-4700-b0fd-de3cf2076f80">
+            <Scene.KeyFrames>
+                <KeyFrame Id="288d6cdf-5488-40b6-a737-2b326b49eb94" />
             </Scene.KeyFrames>
         </Scene>
     </Page.Scenes>

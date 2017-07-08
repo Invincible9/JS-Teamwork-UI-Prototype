@@ -1,6 +1,6 @@
 ﻿<?Infragistics.Models format="xaml" version="4" appVersion="9.1.0.48"?>
 <Project xmlns="http://prototypes.infragistics.com/"
-                                                                                  Id="YQJ3IVMQO3KU" IndigoVersion="9">
+                                                                                  Id="YQJ3IVMQO3KU" StartScreens="/Admin_View.screen" IndigoVersion="9" RecentColors="#FFFFFF1C,#FFFFFFC6,#FF4F8ABD" LastUsedFonts="Open Sans">
     <Project.Defaults>
         <ProjectDefaults Viewport="1024,768">
             <ProjectDefaults.Device>
