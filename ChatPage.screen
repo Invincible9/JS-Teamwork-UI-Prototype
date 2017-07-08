@@ -55,16 +55,7 @@
                         </Add>
                         <Add Property="Panel.Children" Target="cd89b771-8e7c-4627-8833-617811073c17">
                             <Add.Item>
-                                <ContainerBox Background="#FFE9F0DA" Id="9e5e346a-0578-4e1a-b06f-6a587d73d5e7" Panel.Bounds="254,62,515{5,2147483647},591{5,2147483647}">
-                                    <ContainerBox.Content>
-                                        <Container ClipToContainer="True" Id="23001f18-2bf5-43f2-9ae1-787f2634b6cf" />
-                                    </ContainerBox.Content>
-                                </ContainerBox>
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Before="9e5e346a-0578-4e1a-b06f-6a587d73d5e7" Target="cd89b771-8e7c-4627-8833-617811073c17">
-                            <Add.Item>
-                                <ContainerBox Background="#FFE9F0DA" Id="25c3eaff-616b-42ec-b1b7-d9d091420641" Panel.Bounds="768,62,256{5,2147483647},591{5,2147483647}">
+                                <ContainerBox Background="#FFE9F0DA" Id="25c3eaff-616b-42ec-b1b7-d9d091420641" ControlExtensions.Locked="True" Panel.Bounds="768,62,256{5,2147483647},591{5,2147483647}">
                                     <ContainerBox.Content>
                                         <Container ClipToContainer="True" Id="21c330e9-fc71-4eed-9202-b7fbf95addfc" />
                                     </ContainerBox.Content>
@@ -365,6 +356,91 @@
                         <Add Property="Panel.Children" Target="cd89b771-8e7c-4627-8833-617811073c17">
                             <Add.Item>
                                 <Label RichText="&lt;Run FontSize=&quot;16&quot; FontWeight=&quot;Bold&quot; &gt;Community&lt;/Run&gt;" Foreground="#FFFFFF00" FontFamily="Open Sans" Opacity="0.4" Id="45bb7b2b-a733-49af-9382-cb326990770b" Panel.Bounds="182,723,101{5,2147483647},25{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cd89b771-8e7c-4627-8833-617811073c17">
+                            <Add.Item>
+                                <Rectangle Background="#FFFFFF8E" Id="bbf8d081-de82-4c2b-9632-31ae4e9766e1" Panel.Bounds="784,378,225{5,2147483647},159{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cd89b771-8e7c-4627-8833-617811073c17">
+                            <Add.Item>
+                                <Rectangle Id="de824ed2-7b71-4975-b590-241697ae3717" Panel.Bounds="784,604,225{5,2147483647},38{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cd89b771-8e7c-4627-8833-617811073c17">
+                            <Add.Item>
+                                <Icon CatalogId="fa-file-image-o" Id="dc33c26f-5adb-4a70-afec-50e37a078a3c" Panel.Bounds="843,613,20{5,2147483647},20{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cd89b771-8e7c-4627-8833-617811073c17">
+                            <Add.Item>
+                                <Icon CatalogId="fa-file-video-o" Id="fadd1d38-da36-44be-bf6b-de299008449f" Panel.Bounds="886,613,20{5,2147483647},20{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cd89b771-8e7c-4627-8833-617811073c17">
+                            <Add.Item>
+                                <Icon CatalogId="fa-file-text-o" Id="da3312a1-c79e-4e3e-b3dd-c01457838ffb" Panel.Bounds="927,613,20{5,2147483647},20{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cd89b771-8e7c-4627-8833-617811073c17">
+                            <Add.Item>
+                                <Rectangle Id="47c31638-ec8f-4fc9-a8c4-8aa3518c9baa" Panel.Bounds="784,554,225{5,2147483647},42{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cd89b771-8e7c-4627-8833-617811073c17">
+                            <Add.Item>
+                                <TextBox FontFamily="Open Sans" Id="876095d6-6295-4372-a1d8-ccd74b2698e9" Panel.Bounds="787,563,180{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cd89b771-8e7c-4627-8833-617811073c17">
+                            <Add.Item>
+                                <Icon CatalogId="fa-paper-plane-o" Id="d4a8cc60-0554-4133-9c73-69924b04becf" Panel.Bounds="981,567,16{5,2147483647},16{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cd89b771-8e7c-4627-8833-617811073c17">
+                            <Add.Item>
+                                <Label RichText="&lt;Run FontSize=&quot;10&quot; &gt;You&lt;/Run&gt;" FontFamily="Open Sans" Id="9dfe1229-61ec-4473-8d89-5c0a89c599b1" Panel.Bounds="979,476,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="3e6013e1-513e-4142-bc1d-e8a04f29b5a7">
+                            <Add.Item>
+                                <Note RichText="Lorem ipsum dolor sit amet" FontSize="11" FontFamily="Open Sans" Id="c437051f-1f94-466c-9a39-d9ebb30766fb" Panel.Bounds="795,417,151{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="25c3eaff-616b-42ec-b1b7-d9d091420641" Target="cd89b771-8e7c-4627-8833-617811073c17">
+                            <Add.Item>
+                                <ContainerBox Background="#FFE9F0DA" Id="9e5e346a-0578-4e1a-b06f-6a587d73d5e7" ControlExtensions.Locked="True" Panel.Bounds="254,62,515{5,2147483647},591{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="23001f18-2bf5-43f2-9ae1-787f2634b6cf" />
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cd89b771-8e7c-4627-8833-617811073c17">
+                            <Add.Item>
+                                <Label RichText="&lt;Run FontSize=&quot;10&quot; &gt;Maria&lt;/Run&gt;" FontFamily="Open Sans" Id="45d7290f-25e4-44fc-a309-5f28c95711ee" Panel.Bounds="797,402,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="3e6013e1-513e-4142-bc1d-e8a04f29b5a7">
+                            <Add.Item>
+                                <Note RichText="Lorem ipsum dolor sit amet" Background="#FFD7EDF2" FontSize="11" FontFamily="Open Sans" Id="798cce0b-1a24-4459-a4d1-416fc1aa5ec9" Panel.Bounds="850,494,151{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cd89b771-8e7c-4627-8833-617811073c17">
+                            <Add.Item>
+                                <Line Thickness="1" Background="#00FFFFFF" Id="645c390e-3fe0-469f-8c99-6cd2c51b7654" Panel.Bounds="793,468,205{1,2147483647},3{1,2147483647}">
+                                    <Line.StartPoint>
+                                        <Point X="-15" Id="f53572c9-a17e-4517-93b6-9b59c4f380f7" />
+                                    </Line.StartPoint>
+                                    <Line.Segments>
+                                        <Segment Id="a1b0bca1-c5a7-4e02-836e-c96cd6d67007">
+                                            <Segment.EndPoint>
+                                                <Point X="190" Id="f89fc08f-083c-4600-b7d4-f3904335505f" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </Line.Segments>
+                                </Line>
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>
