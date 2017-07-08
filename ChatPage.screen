@@ -30,7 +30,6 @@
                                         <Container ClipToContainer="True" Id="474481a7-98d8-48fb-8ffc-d2827c251b1a">
                                             <Container.Children>
                                                 <Rectangle Background="#FFC6C6C6" StyleClass="Rectangle" Id="63aa63ff-eef8-498c-9616-16f73780388b" Panel.Bounds="-1,-1,256{5,2147483647},58{5,2147483647}" />
-                                                <Title RichText="Chat rooms" Align="Center" FontFamily="Roboto" StyleClass="Title" Id="222d071f-bfe3-4fd3-9306-769c5001a995" Panel.Bounds="-1,-1,256{5,2147483647},45{5,2147483647}" />
                                                 <Rectangle Background="#FFE9F0DA" Id="beafb60f-95cc-4a2b-96b8-a52fe5bbb03d" Panel.Bounds="-1,58,256{5,2147483647},80{5,2147483647}" />
                                                 <Icon CatalogId="Wink" Id="342d8f90-04e6-44fe-b813-3d7f29d08aed" Panel.Bounds="13,72,52{5,2147483647},52{5,2147483647}" />
                                                 <Label RichText="Online" Id="e8d0bfe6-7b62-4287-b2cf-823aa2a3d538" Panel.Bounds="87,106,5*{5,2147483647},5*{5,2147483647}" />
@@ -47,6 +46,13 @@
                                                 <Label RichText="Away" Id="6cf55700-870c-4b37-affd-6c07ef2dce6e" Panel.Bounds="87,266,5*{5,2147483647},5*{5,2147483647}" />
                                                 <Title RichText="Random Guy" FontSize="16" Id="74950914-29ad-4c7d-bba8-e78acf7f883b" Panel.Bounds="87,232,154{5,2147483647},27{5,2147483647}" />
                                                 <Icon CatalogId="Happy Smiley" Id="3687f37b-a946-4392-89db-c30830e3bce5" Panel.Bounds="13,232,52{5,2147483647},52{5,2147483647}" />
+                                                <ComboBox Hint="Bulgaria Room" Id="ee47ea1b-d2f9-4efb-944e-37550934955b" Panel.Bounds="10,10,232{5,2147483647},38{5,2147483647}">
+                                                    <ComboBox.Items>
+                                                        <Item Text="US Room" Id="e61bfd22-b21b-4e6b-b18c-d3edc47bcef0" />
+                                                        <Item Text="Russian Room" IsSelected="True" Id="f92a7383-b7e9-40fb-966b-b7af979b1222" />
+                                                        <Item Text="Great Britan Room" Id="ab54a8c5-acf2-4c15-beb3-81b835d01cc9" />
+                                                    </ComboBox.Items>
+                                                </ComboBox>
                                             </Container.Children>
                                         </Container>
                                     </ContainerBox.Content>

@@ -135,7 +135,7 @@
                         </Add>
                         <Add Property="Panel.Children" Target="e5c649e1-0cd0-4591-8007-e998b6b2ad32">
                             <Add.Item>
-                                <Button Text="Login" FontFamily="Arial Black" Id="16a46b14-9aaa-4535-b941-e332ec617509" Panel.Bounds="702,13,80{5,2147483647},35{5,2147483647}" />
+                                <Button Text="Profile" FontFamily="Arial Black" Id="16a46b14-9aaa-4535-b941-e332ec617509" Panel.Bounds="702,13,80{5,2147483647},35{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="e5c649e1-0cd0-4591-8007-e998b6b2ad32">
@@ -155,12 +155,12 @@
                         </Add>
                         <Add Property="Panel.Children" Target="e5c649e1-0cd0-4591-8007-e998b6b2ad32">
                             <Add.Item>
-                                <Button Text="Online Chat" FontFamily="Arial Black" Id="72b90f11-39e2-4d27-a978-9340f0a7dddd" Panel.Bounds="26,13,101{5,2147483647},35{5,2147483647}" />
+                                <Button Text="Online Chat" FontFamily="Arial Black" Id="72b90f11-39e2-4d27-a978-9340f0a7dddd" Panel.Bounds="151,13,101{5,2147483647},35{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="e5c649e1-0cd0-4591-8007-e998b6b2ad32">
                             <Add.Item>
-                                <Button Text="Register" FontFamily="Arial Black" Id="9b8016c7-6865-4740-a039-cc507704f287" Panel.Bounds="786,13,80{5,2147483647},35{5,2147483647}" />
+                                <Button Text="Logout" FontFamily="Arial Black" Id="9b8016c7-6865-4740-a039-cc507704f287" Panel.Bounds="786,13,80{5,2147483647},35{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="e5c649e1-0cd0-4591-8007-e998b6b2ad32">
@@ -216,6 +216,16 @@
                         <Add Property="Panel.Children" Target="e5c649e1-0cd0-4591-8007-e998b6b2ad32">
                             <Add.Item>
                                 <Label RichText="FAQ" Foreground="#FFFFFF00" FontSize="16" FontFamily="Open Sans" FontStyle="Bold" Opacity="0.4" Id="fb9f2998-6809-4c4d-b30e-3e652d952669" Panel.Bounds="301,521,83{5,2147483647},25{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e5c649e1-0cd0-4591-8007-e998b6b2ad32">
+                            <Add.Item>
+                                <Label RichText="&lt;Run FontSize=&quot;16&quot; Foreground=&quot;#FFE2E2E2&quot; &gt;Username&lt;/Run&gt;" FontFamily="Open Sans" Id="b34531c4-52cf-4530-ab37-6c96e9ea22b1" Panel.Bounds="14,19,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e5c649e1-0cd0-4591-8007-e998b6b2ad32">
+                            <Add.Item>
+                                <Icon Color="#FFE2E2E2" CatalogId="fa-user" Id="caaacb35-e154-4a99-ab0c-c5fc5670c80a" Panel.Bounds="101,17,30{5,2147483647},30{5,2147483647}" />
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>

@@ -25,9 +25,9 @@
                     <KeyFrame.Operations>
                         <Add Property="Panel.Children" Target="e5c649e1-0cd0-4591-8007-e998b6b2ad32">
                             <Add.Item>
-                                <Tabs Background="#FFE9F0DA" TabBackground="#FFE9F0DA" Id="2a134ac8-439a-4cea-858f-f2f437332e89" ControlExtensions.Locked="True" Panel.Bounds="3,61,967{5,2147483647},445{5,2147483647}">
+                                <Tabs Background="#FFE9F0DA" TabBackground="#FFE9F0DA" Id="2a134ac8-439a-4cea-858f-f2f437332e89" Panel.Bounds="3,61,967{5,2147483647},445{5,2147483647}">
                                     <Tabs.Items>
-                                        <TabItem Header="Account" IsSelected="True" Id="6a290db8-dfb3-4928-85d7-533bc7b8d5fb">
+                                        <TabItem Header="Account" Id="6a290db8-dfb3-4928-85d7-533bc7b8d5fb">
                                             <TabItem.Content>
                                                 <Container ClipToContainer="True" Id="715674f6-2e9c-43b1-b51a-d8554b89c0ec">
                                                     <Container.Children>
@@ -60,7 +60,7 @@
                                                 </Container>
                                             </TabItem.Content>
                                         </TabItem>
-                                        <TabItem Header="Settings" Id="3942d7b7-2162-4e38-bed5-c8f753fbc573">
+                                        <TabItem Header="Settings" IsSelected="True" Id="3942d7b7-2162-4e38-bed5-c8f753fbc573">
                                             <TabItem.Content>
                                                 <Container ClipToContainer="True" Id="59d81675-0e35-4440-b13b-c0fb909367ec">
                                                     <Container.Children>
