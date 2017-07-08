@@ -85,7 +85,15 @@
                         </Add>
                         <Add Property="Panel.Children" Target="ad929262-3170-4e61-9a07-dd2b9da2e22a">
                             <Add.Item>
-                                <Button Text="Home" FontFamily="Arial Black" Id="ca0687f3-4e07-44fb-818b-603b52e02acd" Panel.Bounds="453,46,80{5,2147483647},35{5,2147483647}" />
+                                <Button Text="Home" FontFamily="Arial Black" Id="ca0687f3-4e07-44fb-818b-603b52e02acd" Panel.Bounds="453,46,80{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Home-View.screen" Created="07/08/2017 21:49:01" Id="1ab5b716-0b17-4937-a900-472d492eebc8">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="ad929262-3170-4e61-9a07-dd2b9da2e22a">

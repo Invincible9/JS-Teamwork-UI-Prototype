@@ -1,4 +1,4 @@
-<?Infragistics.Models format="xaml" version="29" appVersion="9.1.0.48"?>
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.1.0.48"?>
 <Page xmlns="http://prototypes.infragistics.com/"
                                                                                 Id="b0bbfbd1-097b-4708-b8bf-788ba0954a37">
     <Page.Content>
@@ -218,7 +218,15 @@
                         </Add>
                         <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
                             <Add.Item>
-                                <Button Text="Online Chat" FontFamily="Arial Black" Id="f1ab0eed-acd5-4a61-b17f-cdf8ed2ea3f2" Panel.Bounds="171,17,101{5,2147483647},35{5,2147483647}" />
+                                <Button Text="Online Chat" FontFamily="Arial Black" Id="f1ab0eed-acd5-4a61-b17f-cdf8ed2ea3f2" Panel.Bounds="171,17,101{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Home-View.screen" Created="07/08/2017 21:36:23" Id="fbcdb720-6e5f-4159-9851-1e70b4c46542">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
@@ -233,27 +241,67 @@
                         </Add>
                         <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
                             <Add.Item>
-                                <Button Text="Login" FontFamily="Arial Black" Id="105fd721-48c4-42d2-add4-60d3fd5dccfe" Panel.Bounds="747,17,80{5,2147483647},35{5,2147483647}" />
+                                <Button Text="Login" FontFamily="Arial Black" Id="105fd721-48c4-42d2-add4-60d3fd5dccfe" Panel.Bounds="747,17,80{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Login-View.screen" Created="07/08/2017 21:37:06" Id="854f3827-133f-4701-a47c-39e9f9053a5c">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
                             <Add.Item>
-                                <Button Text="Forum" Background="#FFB1CBE2" FontFamily="Arial Black" Id="9acfbf61-2d8d-461c-ab4b-77fdd30be4b2" Panel.Bounds="660,17,80{5,2147483647},35{5,2147483647}" />
+                                <Button Text="Forum" Background="#FFB1CBE2" FontFamily="Arial Black" Id="9acfbf61-2d8d-461c-ab4b-77fdd30be4b2" Panel.Bounds="660,17,80{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Forum.screen" Created="07/08/2017 21:36:53" Id="e7985ced-c31d-4df6-844e-5bc9c99a4be7">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
                             <Add.Item>
-                                <Button Text="Chat Rooms" FontFamily="Arial Black" Id="61a995da-cc8e-4c57-a6db-eb92df3c0933" Panel.Bounds="550,17,101{5,2147483647},35{5,2147483647}" />
+                                <Button Text="Chat Rooms" FontFamily="Arial Black" Id="61a995da-cc8e-4c57-a6db-eb92df3c0933" Panel.Bounds="550,17,101{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/ChatPage.screen" Created="07/08/2017 21:36:38" Id="9acf2f49-a28a-4fb7-9bf7-537381f82922">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
                             <Add.Item>
-                                <Button Text="Home" FontFamily="Arial Black" Id="c384162a-5229-443f-bace-b1323facabec" Panel.Bounds="456,17,80{5,2147483647},35{5,2147483647}" />
+                                <Button Text="Home" FontFamily="Arial Black" Id="c384162a-5229-443f-bace-b1323facabec" Panel.Bounds="456,17,80{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Home-View.screen" Created="07/08/2017 21:14:26" Id="d982901e-4103-49a4-b3bf-d5e50deb27f8">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="a1196edf-c61a-4cad-9d19-27785bde8919">
                             <Add.Item>
-                                <Button Text="Register" FontFamily="Arial Black" Id="35d4d389-e74c-4b49-a145-f836ba5382c7" Panel.Bounds="831,17,80{5,2147483647},35{5,2147483647}" />
+                                <Button Text="Register" FontFamily="Arial Black" Id="35d4d389-e74c-4b49-a145-f836ba5382c7" Panel.Bounds="831,17,80{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Register-View.screen" Created="07/08/2017 21:37:23" Id="fee47242-e571-4fdd-ba28-1e1261490fe1">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>
