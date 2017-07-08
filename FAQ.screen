@@ -1,4 +1,4 @@
-﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.1.0.48"?>
+<?Infragistics.Models format="xaml" version="29" appVersion="9.1.0.48"?>
 <Page xmlns="http://prototypes.infragistics.com/"
                                                                                 Id="23739b3c-d093-4525-afc5-f3fb40f37839">
     <Page.Content>
@@ -71,24 +71,18 @@
                                         <Label RichText="Whats this site about?" FontSize="14" FontFamily="Arial Black" Id="a8d278af-25ad-43f8-b8b1-82cb76f94632" Panel.Bounds="0,0,5*{5,2147483647},5*{5,2147483647}" />
                                         <TextBox Text="Its about chat rooms and stuff." FontSize="16" FontFamily="Open Sans" Id="64229cfa-811d-4795-9e83-0fb5d0f2c4b9" Panel.Bounds="0,31,417{5,2147483647},5*{5,2147483647}" />
                                         <Label RichText="Whats this site about?" FontSize="14" FontFamily="Arial Black" Id="3e5082bf-b474-4346-a83d-4f7740d8031e" Panel.Bounds="0,0,5*{5,2147483647},5*{5,2147483647}" />
-                                        <TextBox Text="Sign up with username and choose room." FontSize="16" FontFamily="Open Sans" Id="1e873467-612f-4ca0-b69b-43fbc3983282" Panel.Bounds="0,104,494{5,2147483647},5*{5,2147483647}" />
+                                        <TextBox Text="Sign up with username and choose room." FontSize="16" FontFamily="Open Sans" Id="1e873467-612f-4ca0-b69b-43fbc3983282" Panel.Bounds="0,104,417{5,2147483647},5*{5,2147483647}" />
                                         <Label RichText="How to join chat room?" FontSize="14" FontFamily="Arial Black" Id="b4f2507a-81c4-49ce-8145-5424a25d5fa7" Panel.Bounds="0,72,204{5,2147483647},27{5,2147483647}" />
                                         <TextBox Text="its made on javascript." FontSize="16" FontFamily="Open Sans" Id="ab4ed8bc-803a-4c61-95d3-9153a23bd1f1" Panel.Bounds="0,186,417{5,2147483647},5*{5,2147483647}" />
                                         <Label RichText="Whats this website made on?" FontSize="14" FontFamily="Arial Black" Id="57fbe4c7-8adc-4ebe-bcdd-1237ff1a9870" Panel.Bounds="2,149,5*{5,2147483647},5*{5,2147483647}" />
                                         <TextBox Text="You can try with youtube videos or softuni." FontSize="16" FontFamily="Open Sans" Id="a57b4307-0d63-40b2-b336-99d5e6f38bbb" Panel.Bounds="0,269,417{5,2147483647},5*{5,2147483647}" />
                                         <Label RichText="Where to learn coding?&#xD;&#xA;" FontSize="14" FontFamily="Arial Black" Id="ce4b9903-983b-4f96-b1b6-b58dddb052c5" Panel.Bounds="2,232,5*{5,2147483647},5*{5,2147483647}" />
+                                        <TextBox Text="https://github.com/vrabeca/JS-Teamwork-UI-Prototype" FontSize="16" FontFamily="Open Sans" Id="d94b1188-926a-4d32-9bff-67ef75d30fc0" Panel.Bounds="0,358,417{5,2147483647},5*{5,2147483647}" />
+                                        <Label RichText="Whats the github link?" FontSize="14" FontFamily="Arial Black" Id="f462e10d-ad46-42bc-b6e6-ded4ac0efa85" Panel.Bounds="2,321,5*{5,2147483647},5*{5,2147483647}" />
+                                        <TextBox Text="On Saturday 8 July 2017." FontSize="16" FontFamily="Open Sans" Id="20f2ce6c-1f9d-409f-8e50-d5045cbab6a9" Panel.Bounds="0,453,417{5,2147483647},5*{5,2147483647}" />
+                                        <Label RichText="When did you make the project?" FontSize="14" FontFamily="Arial Black" Id="0fe7ea98-3b14-4024-a45f-19d3f5d037bc" Panel.Bounds="2,416,5*{5,2147483647},5*{5,2147483647}" />
                                     </Group.Children>
                                 </Group>
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="752449eb-212a-48f4-86e6-89c24bb43248">
-                            <Add.Item>
-                                <TextBox Text="https://github.com/vrabeca/JS-Teamwork-UI-Prototype" FontSize="16" FontFamily="Open Sans" Id="d94b1188-926a-4d32-9bff-67ef75d30fc0" Panel.Bounds="280,494,417{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="752449eb-212a-48f4-86e6-89c24bb43248">
-                            <Add.Item>
-                                <Label RichText="Whats the github link?" FontSize="14" FontFamily="Arial Black" Id="f462e10d-ad46-42bc-b6e6-ded4ac0efa85" Panel.Bounds="282,457,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>
@@ -97,3 +91,4 @@
         </Scene>
     </Page.Scenes>
 </Page>
+
