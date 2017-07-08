@@ -135,7 +135,15 @@
                         </Add>
                         <Add Property="Panel.Children" Target="687ad4ea-30fc-4608-836e-095aa2565a23">
                             <Add.Item>
-                                <Button Text="Home" FontFamily="Arial Black" Id="eef160f4-bc6c-4376-a976-451aaa2f1371" Panel.Bounds="456,46,80{5,2147483647},35{5,2147483647}" />
+                                <Button Text="Home" FontFamily="Arial Black" Id="eef160f4-bc6c-4376-a976-451aaa2f1371" Panel.Bounds="456,46,80{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Home-View.screen" Created="07/08/2017 14:30:03" Id="6e344b7c-55b5-4e8c-b722-a5fc1b51299b">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="687ad4ea-30fc-4608-836e-095aa2565a23">

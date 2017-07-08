@@ -40,7 +40,7 @@
                         </Add>
                         <Add Property="Panel.Children" Target="8b1927ee-1946-4fd1-b3e2-c2a31bbd3edf">
                             <Add.Item>
-                                <Button Text="Online Chat" FontFamily="Arial Black" Id="1d9c55d1-67e8-4f0c-aef0-a6c6770f69bf" Panel.Bounds="171,46,101{5,2147483647},35{5,2147483647}" />
+                                <Button Text="Online Chat" FontFamily="Arial Black" Id="1d9c55d1-67e8-4f0c-aef0-a6c6770f69bf" Panel.Bounds="61,46,101{5,2147483647},35{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="8b1927ee-1946-4fd1-b3e2-c2a31bbd3edf">
@@ -90,16 +90,6 @@
                         </Add>
                         <Add Property="Panel.Children" Target="8b1927ee-1946-4fd1-b3e2-c2a31bbd3edf">
                             <Add.Item>
-                                <Icon Color="#FFFFFF55" CatalogId="Happy Smiley" Id="510363d1-68d9-4c2f-a0b0-004f94276b04" Panel.Bounds="132,49,29{5,2147483647},29{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="8b1927ee-1946-4fd1-b3e2-c2a31bbd3edf">
-                            <Add.Item>
-                                <Label RichText="&lt;Run Foreground=&quot;#FF4281D0&quot; &gt;User:&lt;/Run&gt;" FontSize="18" FontFamily="Arial Black" Id="36c2fd03-43b6-4932-be59-0461b86f4e20" Panel.Bounds="69,49,62{5,2147483647},30{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="8b1927ee-1946-4fd1-b3e2-c2a31bbd3edf">
-                            <Add.Item>
                                 <Label RichText="&lt;Run FontSize=&quot;24&quot; &gt;Login&lt;/Run&gt;" Foreground="#FF3BAF4A" FontFamily="Open Sans" FontStyle="Underline|Bold" Opacity="0.4" Id="f99fe1e7-dea9-4056-a3b1-69d04534b68f" Panel.Bounds="425,109,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
@@ -145,7 +135,15 @@
                         </Add>
                         <Add Property="Panel.Children" Target="8b1927ee-1946-4fd1-b3e2-c2a31bbd3edf">
                             <Add.Item>
-                                <Button Text="Home" FontFamily="Arial Black" Id="80e7e082-88b0-4a39-bef1-ceafc7a54b48" Panel.Bounds="456,46,80{5,2147483647},35{5,2147483647}" />
+                                <Button Text="Home" FontFamily="Arial Black" Id="80e7e082-88b0-4a39-bef1-ceafc7a54b48" Panel.Bounds="456,46,80{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Home-View.screen" Created="07/08/2017 14:23:57" Id="fd7677a1-cf87-4e5c-81ea-07adfd05516b">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Crossfade" Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="8b1927ee-1946-4fd1-b3e2-c2a31bbd3edf">
