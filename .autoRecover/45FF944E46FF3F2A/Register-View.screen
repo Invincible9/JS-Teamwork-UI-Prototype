@@ -180,7 +180,15 @@
                         </Add>
                         <Add Property="Panel.Children" Target="687ad4ea-30fc-4608-836e-095aa2565a23">
                             <Add.Item>
-                                <Button Text="Register" FontFamily="Arial Black" Id="4ecc9ac0-6853-4ecd-a7f6-a7f9909be956" Panel.Bounds="831,46,80{5,2147483647},35{5,2147483647}" />
+                                <Button Text="Register" FontFamily="Arial Black" Id="4ecc9ac0-6853-4ecd-a7f6-a7f9909be956" Panel.Bounds="831,46,80{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Register-View.screen" Created="07/08/2017 21:49:25" Id="09338092-5719-48c3-be87-1dde434db3db">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="687ad4ea-30fc-4608-836e-095aa2565a23">

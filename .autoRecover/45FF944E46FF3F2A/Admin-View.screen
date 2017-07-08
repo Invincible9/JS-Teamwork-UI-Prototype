@@ -386,6 +386,11 @@
                                 <CheckBox IsChecked="True" Id="475a8d4a-c1a5-46a5-b19a-1d69660a05e4" Panel.Bounds="435,275,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
+                        <Add Property="GuidesInfo.Guides" Target="c6944bf9-feba-41fa-a697-8f37c4fadb08">
+                            <Add.Item>
+                                <Guide Position="520" Id="730d7d45-bc3a-4767-9031-5cb983e5b099" />
+                            </Add.Item>
+                        </Add>
                     </KeyFrame.Operations>
                 </KeyFrame>
             </Scene.KeyFrames>
