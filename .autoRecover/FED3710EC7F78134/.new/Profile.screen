@@ -1,0 +1,141 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.1.0.48"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                Id="a576ec24-ceb0-41d7-a585-448adeb00c6b">
+    <Page.Content>
+        <Content Width="970" Height="736" Id="31255f56-8012-4976-b4f2-1ac1f0b8d67e">
+            <Content.Layers>
+                <Layer Id="e5c649e1-0cd0-4591-8007-e998b6b2ad32" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="1be107bb-b44e-48c0-8171-cd2fcd9daf3f" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Id="b5e00fe2-bb98-41cc-8815-d561db86afa8" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="6d84fc6e-9c04-4078-a818-8864a32b88e4" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="07/08/2017 12:53:15" Id="1febc261-196f-4776-9562-c12eaa54d9ea">
+            <Scene.KeyFrames>
+                <KeyFrame Id="d93cdc29-84c3-40cb-8ed9-f2122d9288f0">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="e5c649e1-0cd0-4591-8007-e998b6b2ad32">
+                            <Add.Item>
+                                <Tabs Id="2a134ac8-439a-4cea-858f-f2f437332e89" ControlExtensions.Locked="True" Panel.Bounds="3,55,967{5,2147483647},445{5,2147483647}">
+                                    <Tabs.Items>
+                                        <TabItem Header="Account" Id="6a290db8-dfb3-4928-85d7-533bc7b8d5fb">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="715674f6-2e9c-43b1-b51a-d8554b89c0ec">
+                                                    <Container.Children>
+                                                        <Icon CatalogId="fa-user" Id="b88f98b4-6849-4fea-9023-3920bcea66a0" Panel.Bounds="21,48,89{5,2147483647},89{5,2147483647}" />
+                                                        <Title RichText="&lt;Run FontSize=&quot;21&quot; &gt;Username:&lt;/Run&gt;" Id="266ef03c-3b32-4b68-a757-a9167b335079" ControlExtensions.Locked="True" Panel.Bounds="141,54,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Title RichText="Email:" FontSize="21" Id="5354af88-69ca-48b8-9af3-de1112765203" ControlExtensions.Locked="True" Panel.Bounds="140,94,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Label Id="87c4bce9-b7d3-4345-befb-f02ee9bda7bd" Panel.Bounds="137,140,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <TextBox Text="BGcoder" Id="dd08d657-eb52-4a00-8c73-7887a44ffd87" ControlExtensions.Locked="True" Panel.Bounds="254,58,120{5,2147483647},5*{5,2147483647}" />
+                                                        <TextBox Text="example@email.com" Id="301515c2-eb31-467f-94de-15dd52b86fe2" ControlExtensions.Locked="True" Panel.Bounds="209,99,165{5,2147483647},5*{5,2147483647}" />
+                                                        <Label RichText="&lt;Run FontSize=&quot;18&quot; &gt;First Name: &lt;/Run&gt;" Id="c13102d8-8f80-4dc5-9874-794ef1e2b45e" Panel.Bounds="142,146,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Label RichText="&lt;Run FontSize=&quot;18&quot; &gt;Last Name:&lt;/Run&gt;" Id="2d692e52-593e-46d4-b000-cdb2e0e4034c" Panel.Bounds="142,188,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <TextBox Text="Pesho" Id="cd672a7c-99cc-4e32-95c8-288396c5ff67" Panel.Bounds="254,146,120{5,2147483647},5*{5,2147483647}" />
+                                                        <TextBox Text="Ivanov" Id="d973bf6c-b9d9-4f65-af2d-c5a41ce093b3" Panel.Bounds="254,188,120{5,2147483647},5*{5,2147483647}" />
+                                                        <Label RichText="&lt;Run FontSize=&quot;18&quot; &gt;About me: &lt;/Run&gt;" Id="2bcdd5bf-855f-446e-a29f-ff4dd0c1bd23" Panel.Bounds="142,236,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <TextArea Id="a82e0e7b-20d2-468c-857e-a22c57b7f008" Panel.Bounds="254,240,225{5,2147483647},124{5,2147483647}" />
+                                                        <Button Text="Save Changes" Id="b7a5d662-11d7-41bd-bc00-03a42bfb90ae" Panel.Bounds="759,327,108{5,2147483647},35{5,2147483647}" />
+                                                        <Button Text="Reset" Id="fba6b991-cb2a-4394-afff-a5fc8feea547" Panel.Bounds="638,326,80{5,2147483647},35{5,2147483647}" />
+                                                        <Label RichText="&lt;Run FontSize=&quot;18&quot; &gt;Town:&lt;/Run&gt;" Id="cdfea8f7-266e-4dab-b343-9f069a6ab06f" Panel.Bounds="592,61,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <TextBox Text="Sofia" Id="ead12493-b307-436a-970a-7c3928b1c2e2" Panel.Bounds="652,62,120{5,2147483647},5*{5,2147483647}" />
+                                                        <Label RichText="Age: " FontSize="18" Id="5a432895-9fa9-4f0d-8aa9-45e6f21504ec" Panel.Bounds="602,105,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <TextBox Text="21" Id="051e3316-a72f-4fa6-8ba2-30ba17b5f4d1" Panel.Bounds="652,106,120{5,2147483647},5*{5,2147483647}" />
+                                                        <Label RichText="Gender:" FontSize="18" Id="98a6cfc6-2210-43cf-9308-564296c363cb" Panel.Bounds="579,162,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <ComboBox IsOpen="True" Id="ace28e13-75fe-4d19-829f-c4ecf6dc8ddf" Panel.Bounds="655,164,150{5,2147483647},28{5,2147483647}">
+                                                            <ComboBox.Items>
+                                                                <Item Text="Male" Id="7846a117-221e-424d-b3ee-5286f83b3b93" />
+                                                                <Item Text="Female" Id="0732ee5e-266b-4fc4-af56-ad2580cee74a" />
+                                                            </ComboBox.Items>
+                                                        </ComboBox>
+                                                    </Container.Children>
+                                                </Container>
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Settings" IsSelected="True" Id="3942d7b7-2162-4e38-bed5-c8f753fbc573">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="59d81675-0e35-4440-b13b-c0fb909367ec">
+                                                    <Container.Children>
+                                                        <Label RichText="Current Password: " FontSize="18" Id="31d49ce5-54ea-45e6-ad7f-740c24dd3c26" Panel.Bounds="85,64,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <PasswordBox Id="1bc76a9a-9c05-4c67-be1c-3ccab808eec3" Panel.Bounds="259,66,164{5,2147483647},5*{5,2147483647}" />
+                                                        <Label RichText="&lt;Run FontSize=&quot;18&quot; &gt;New Password: &lt;/Run&gt;" Id="25edfb6d-92bb-4ba1-a865-f857049f385c" Panel.Bounds="112,102,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <PasswordBox Id="96f1f73b-857c-453a-91e3-670f075ba0b2" Panel.Bounds="259,103,164{5,2147483647},5*{5,2147483647}" />
+                                                        <Label RichText="&lt;Run FontSize=&quot;18&quot; &gt;Confirm New Password: &lt;/Run&gt;" Id="09cc7a2f-1a7c-4672-8ab8-4e8ed933dd97" Panel.Bounds="41,144,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <PasswordBox Id="3b775201-8a4f-4382-83b4-dde9ede78e6f" Panel.Bounds="259,145,164{5,2147483647},5*{5,2147483647}" />
+                                                        <Button Text="Lock Account" Id="1695b48c-743c-41ca-b958-717fe431fcac" Panel.Bounds="41,230,104{5,2147483647},35{5,2147483647}" />
+                                                        <Button Text="Delete Account" Id="a2468728-151d-499e-9cdd-e223aecb794d" Panel.Bounds="41,286,104{5,2147483647},35{5,2147483647}" />
+                                                        <TextBox Text="Search" Id="10d1567b-999f-4827-abed-0b9729eb8ea8" Panel.Bounds="636,67,246{5,2147483647},5*{5,2147483647}" />
+                                                        <Label RichText="&lt;Run FontSize=&quot;16&quot; &gt;Search User To Block: &lt;/Run&gt;" Id="af447214-50e8-4ae8-9db5-4ad08de280c4" Panel.Bounds="469,67,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Label RichText="&lt;Run FontSize=&quot;16&quot; &gt;Blocked Users: &lt;/Run&gt;" Id="d042a2e5-3468-481f-abcb-d219746fec5a" Panel.Bounds="520,127,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Grid FontSize="13" HeaderFontSize="13" Id="dd462339-cc91-456a-b312-887919bed538" Panel.Bounds="636,132,5*{5,2147483647},5*{5,2147483647}">
+                                                            <Grid.HeaderRow>
+                                                                <GridHeaderRow FontStyle="" Height="32" Id="07b7346a-c8c2-4379-856c-719fe7ce442c" />
+                                                            </Grid.HeaderRow>
+                                                            <Grid.Columns>
+                                                                <GridColumn ColumnId="213d0e42-3623-44ed-9dd3-fb1b3f82268b" Type="Text" Width="166" Id="ccb861af-b979-41e1-94f2-97775c8fbadc">
+                                                                    <GridColumn.CellData>
+                                                                        <GridCellData ColumnId="213d0e42-3623-44ed-9dd3-fb1b3f82268b" Value="Username" Opacity="1" Id="6af61138-e581-4ee6-8620-088cdd8942bd" />
+                                                                    </GridColumn.CellData>
+                                                                </GridColumn>
+                                                                <GridColumn ColumnId="37bd285e-3552-49ad-9f5b-4444290daa2e" Type="Text" Width="104" Id="2a6b53cb-e942-411c-aa69-83be37fa2a81">
+                                                                    <GridColumn.CellData>
+                                                                        <GridCellData ColumnId="37bd285e-3552-49ad-9f5b-4444290daa2e" Value="Options" Opacity="1" Id="1ff280b1-dcb9-4406-9209-7a00b4a3473b" />
+                                                                    </GridColumn.CellData>
+                                                                </GridColumn>
+                                                            </Grid.Columns>
+                                                            <Grid.Rows>
+                                                                <GridRow Height="32" Id="f1492e8c-b97f-4cb4-b9bf-79b575cd68f4">
+                                                                    <GridRow.Data>
+                                                                        <GridCellData ColumnId="213d0e42-3623-44ed-9dd3-fb1b3f82268b" Value="Indicaneca" Opacity="1" Id="37233886-0199-45e2-8d27-efe39b280c52" />
+                                                                        <GridCellData ColumnId="37bd285e-3552-49ad-9f5b-4444290daa2e" Opacity="1" Id="4d35a4fd-6040-42ed-a3de-a77f77851e6c" />
+                                                                        <GridCellData ColumnId="ed9f056f-1f14-453c-aff0-cfbe89bc2bbe" Value=" vel sed est lorem." Opacity="1" Id="fe5c53ae-d62a-4e97-9e9c-9266a24f384d" />
+                                                                    </GridRow.Data>
+                                                                </GridRow>
+                                                                <GridRow Height="32" Id="dd9b3f46-bbca-493e-9858-42e436c9dc5e">
+                                                                    <GridRow.Data>
+                                                                        <GridCellData ColumnId="213d0e42-3623-44ed-9dd3-fb1b3f82268b" Value="RandomGuy1" Opacity="1" Id="e2bdad8b-4e79-4b16-babd-0bbbceda3589" />
+                                                                        <GridCellData ColumnId="37bd285e-3552-49ad-9f5b-4444290daa2e" Opacity="1" Id="fcbf6a9f-6cfb-4730-a232-289bffd96b5f" />
+                                                                        <GridCellData ColumnId="ed9f056f-1f14-453c-aff0-cfbe89bc2bbe" Value=" no ea esse diam." Opacity="1" Id="9cdf1113-c262-45af-89f1-d3e52af076ab" />
+                                                                    </GridRow.Data>
+                                                                </GridRow>
+                                                                <GridRow Height="32" Id="aca9871f-e804-4cef-84cb-059258bd9b4d">
+                                                                    <GridRow.Data>
+                                                                        <GridCellData ColumnId="213d0e42-3623-44ed-9dd3-fb1b3f82268b" Value="RandomGal" Opacity="1" Id="b04e711c-abdc-456f-b268-44cf72d981f6" />
+                                                                        <GridCellData ColumnId="37bd285e-3552-49ad-9f5b-4444290daa2e" Value=" vero diam lorem ut." Opacity="1" Id="c64bc3d1-eb95-4c38-a7ec-22661b2d074d" />
+                                                                        <GridCellData ColumnId="ed9f056f-1f14-453c-aff0-cfbe89bc2bbe" Value=" et et vulputate magna." Opacity="1" Id="3f22d46f-365a-4c85-af6c-57b80d2d4411" />
+                                                                    </GridRow.Data>
+                                                                </GridRow>
+                                                            </Grid.Rows>
+                                                        </Grid>
+                                                        <Button Text="Unblock" Id="3da966f5-ad0e-4eac-acea-02307ca319fb" Panel.Bounds="801,164,107{5,2147483647},32{5,2147483647}" />
+                                                        <Button Text="Unblock" Id="16172971-451f-42e8-ab7b-dfcb6b60713d" Panel.Bounds="801,227,107{5,2147483647},32{5,2147483647}" />
+                                                        <Button Text="Unblock" Id="df94c307-3d3c-4998-b617-112cb2086f38" Panel.Bounds="801,196,107{5,2147483647},32{5,2147483647}" />
+                                                        <Label RichText="Lock your account " FontFamily="Open Sans" Id="5f1eb110-d5a8-4faa-95d8-28a713c56201" Panel.Bounds="185,234,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Label RichText="Delete Account Permanently" FontFamily="Open Sans" Id="a8cf9622-ca2d-4555-bb72-1ebbec71658c" Panel.Bounds="185,299,5*{5,2147483647},5*{5,2147483647}" />
+                                                    </Container.Children>
+                                                </Container>
+                                            </TabItem.Content>
+                                        </TabItem>
+                                    </Tabs.Items>
+                                </Tabs>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Disconnected State" ParentScene="1febc261-196f-4776-9562-c12eaa54d9ea" Created="07/08/2017 13:47:17" Id="8234080c-f53b-4af5-b920-0cd275a246d4">
+            <Scene.KeyFrames>
+                <KeyFrame Id="3b58d182-38fc-430b-b686-f40113394c0c" />
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
