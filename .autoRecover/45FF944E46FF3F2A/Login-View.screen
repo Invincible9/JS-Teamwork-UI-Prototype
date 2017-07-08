@@ -201,7 +201,15 @@
                         </Add>
                         <Add Property="Panel.Children" Target="8b1927ee-1946-4fd1-b3e2-c2a31bbd3edf">
                             <Add.Item>
-                                <Label RichText="FAQ" Foreground="#FFFFFF00" FontSize="16" FontFamily="Open Sans" FontStyle="Bold" Opacity="0.4" Id="e6210061-82a8-4954-89a3-2b3e49650133" Panel.Bounds="318,396,75{5,2147483647},25{5,2147483647}" />
+                                <Label RichText="FAQ" Foreground="#FFFFFF00" FontSize="16" FontFamily="Open Sans" FontStyle="Bold" Opacity="0.4" Id="e6210061-82a8-4954-89a3-2b3e49650133" Panel.Bounds="318,396,75{5,2147483647},25{5,2147483647}">
+                                    <Label.Click>
+                                        <CommandNavigate Screen="/FAQ.screen" Created="07/08/2017 21:25:05" Id="19e4eca6-229c-4c70-89b9-2ad0123955e5">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Label.Click>
+                                </Label>
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>
